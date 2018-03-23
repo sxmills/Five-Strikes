@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:layout_weight="6"
+                  android:gravity="center">
+        <ImageButton
+            android:id="@+id/rankings_arrow_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                  android:layout_height="match_parent"  android:layout_weight="1"
+                  android:gravity="center">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                      android:layout_height="match_parent" android:layout_weight="4"
+                      android:gravity="center">
+            <ImageView
+                android:id="@+id/rankings_icon_0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/menu_rankings"
+                android:layout_weight="3"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:id="@+id/rankings_rankings"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/rankings_rankings"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:id="@+id/rankings_icon_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/menu_rankings"
+                android:layout_weight="3"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1"
+            android:gravity="center">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:layout_weight="4"
+                          android:gravity="center">
+                <ImageView
+                    android:id="@+id/rankings_1st"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    />
+                <ImageView
+                    android:id="@+id/rankings_2nd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    />
+                <ImageView
+                    android:id="@+id/rankings_3rd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    />
+                <ImageView
+                    android:id="@+id/rankings_4th"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    />
+                <ImageView
+                    android:id="@+id/rankings_5th"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:layout_weight="1"
+                          android:gravity="center">
+                <TextView
+                    android:id="@+id/rankings_1st_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="monospace"
+                    android:textSize="40dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/rankings_2nd_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="monospace"
+                    android:textSize="40dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/rankings_3rd_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="monospace"
+                    android:textSize="40dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/rankings_4th_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="monospace"
+                    android:textSize="40dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/rankings_5th_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="monospace"
+                    android:textSize="40dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                      android:layout_height="match_parent" android:layout_weight="4"
+                      android:gravity="center">
+            <ImageView
+                android:id="@+id/rankings_difficulty_icon_0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/settings_icon_difficulty"
+                android:layout_weight="3"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:id="@+id/rankings_difficulty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:id="@+id/rankings_difficulty_icon_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/settings_icon_difficulty"
+                android:layout_weight="3"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:layout_weight="6"
+                  android:gravity="center">
+        <ImageButton
+            android:id="@+id/rankings_arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>

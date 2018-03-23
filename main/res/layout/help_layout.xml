@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:layout_weight="6"
+                  android:gravity="center">
+        <ImageButton
+            android:id="@+id/help_arrow_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:layout_weight="1"
+                  android:gravity="center">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                      android:layout_height="match_parent" android:layout_weight="8"
+                      android:gravity="center">
+            <ImageView
+                android:id="@+id/help_icon_0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/menu_help"
+                android:layout_weight="3"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:id="@+id/help_help"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/help_how_to_play"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:id="@+id/help_icon_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/menu_help"
+                android:layout_weight="3"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                      android:layout_height="match_parent" android:layout_weight="1"
+                      android:gravity="center">
+            <ImageView
+                android:id="@+id/help_screen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/help_screen_0"
+                android:layout_gravity="center"
+                />
+            </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:layout_weight="6"
+                  android:gravity="center">
+        <ImageButton
+            android:id="@+id/help_arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/help_arrow_r0"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>

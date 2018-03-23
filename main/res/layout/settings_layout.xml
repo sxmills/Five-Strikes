@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:layout_weight="6"
+                  android:gravity="center">
+        <ImageView
+            android:id="@+id/menu_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/menu_settings"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:id="@+id/settings_icon_difficulty"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/settings_icon_difficulty"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:id="@+id/settings_icon_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/settings_icon_sound"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:id="@+id/settings_icon_vibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/settings_icon_vibrate"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:id="@+id/settings_icon_about"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/settings_icon_about"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_weight="1"
+        android:gravity="center">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                      android:layout_height="match_parent" android:layout_weight="1"
+                      android:gravity="center">
+            <ImageView
+                android:id="@+id/settings_options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings_options"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                      android:layout_height="match_parent" android:layout_weight="1"
+                      android:gravity="center">       
+            <ImageButton
+                android:id="@+id/settings_difficulty_easy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings_difficulty_easy_0"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                />
+            <ImageButton
+                android:id="@+id/settings_difficulty_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings_difficulty_normal_0"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                />
+            <ImageButton
+                android:id="@+id/settings_difficulty_hard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings_difficulty_hard_0"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                      android:layout_height="match_parent" android:layout_weight="1"
+                      android:gravity="center">
+            <ImageButton
+                android:id="@+id/settings_option_sound_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings_option_off_0"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                />
+            <ImageButton
+                android:id="@+id/settings_option_sound_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings_option_on_0"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                      android:layout_height="match_parent" android:layout_weight="1"
+                      android:gravity="center">
+            <ImageButton
+                android:id="@+id/settings_option_vibrate_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings_option_off_0"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                />
+            <ImageButton
+                android:id="@+id/settings_option_vibrate_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings_option_on_0"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                      android:layout_height="match_parent" android:layout_weight="1"
+                      android:gravity="center">
+            <ImageButton
+                android:id="@+id/settings_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings_about"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
